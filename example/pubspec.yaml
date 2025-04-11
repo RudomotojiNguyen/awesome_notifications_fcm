@@ -3,7 +3,7 @@ description: Demonstrates how to use the awesome_notifications_fcm plugin.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 environment:
   sdk: ">=2.19.0 <4.0.0"
@@ -13,11 +13,10 @@ dependencies:
     sdk: flutter
 
   firebase_core: ^3.12.0
-  awesome_notifications: ^0.10.1
-#   path: ../../awesome_notifications
-#    git:
-#      ref: "a9fbe3e"
-#      url: https://github.com/rafaelsetragni/awesome_notifications
+  awesome_notifications:
+    git:
+      url: https://github.com/RudomotojiNguyen/awesome_notifications.git
+      ref: dev
   awesome_notifications_fcm:
     path: ../
 
@@ -47,7 +46,6 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
